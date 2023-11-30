@@ -17,7 +17,7 @@ A **_Mikrotik script_** that let you automatically authenticate into KMITL netwo
 2. Copy and Paste this script (If use terminal in winbox **Don't use Ctrl-V**, use right click and paste)
 
 ```
-/tool fetch url=https://raw.githubusercontent.com/CE-HOUSE/Auto-Login-KMITL-Mikrotik/main/Auto-Login-KMITL.rsc;
+/tool fetch url=https://raw.githubusercontent.com/CRUNZEX/KMITL-Auto-Authen-Mikrotik/main/Auto-Login-KMITL;
 /import file-name=Auto-Login-KMITL.rsc;
 ```
 
