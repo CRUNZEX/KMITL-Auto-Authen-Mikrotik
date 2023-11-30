@@ -37,10 +37,10 @@ if (!any $ParseJSON) do={
 
 # only success status can here
 :global LServerIP $serverIP;
-:global LAccount [$ParseJSON $content "account"];
+:global LAccount [$ParseJSON $content "username"];
 :global LSessionId $sessionId;
 :global LToken $token;
-:local Heartbeat [:totime ([$ParseJSON $content "webHeatbeatPeriod"] . "ms")];
+# :local Heartbeat [:totime ([$ParseJSON $content "webHeatbeatPeriod"] . "ms")];
 
 :log info "Auto-Login: Login successful  USER:$LAccount IP:$[$ParseJSON $content "ip"]";
 
